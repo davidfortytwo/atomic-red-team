@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 WORKDIR /
 RUN apt-get update && apt-get install nmap -y
 RUN apt-get update && apt-get install -y tcpdump
